@@ -63,6 +63,8 @@
 }
 .banner-image{
   width: 100%;
+  border-radius: 16px;
+  height: auto;
 }
 @media screen and (max-width: 576px){
   .navbar, .nav-link, .teams{
@@ -81,6 +83,9 @@
 .section-title{
   font-size: 2.8rem;
   font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 .teams{
   align-items: center;
@@ -141,7 +146,7 @@ main > section{
   grid-template-columns: repeat(5, 1fr);
 }
 .sponsor-company img{
-  filter: grayscale();
+  filter: grayscale(100%);
 }
 .our-sponsors{
   max-width: 1440px;
@@ -188,7 +193,7 @@ main > section{
     grid-template-columns: repeat(1,1fr);
   }
   .our-features{
-    margin-left: 20px;
+    margin-left: 0px;
   }
 }
 @media screen and (min-width:577px) and (max-width:992px){
@@ -228,5 +233,42 @@ main > section{
     grid-template-columns: repeat(1, 1fr);
     gap: 24px;
     justify-items: center;
+  }
+  .text-light-gray{
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0;
+  }
+  .section-title{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .features-description{
+    text-align: center;
+  }
+  .btn-primary{
+    
+  }
+  .banner-content{
+    align-items: center;
+  }
+  .our-btn{
+    display: flex;
+    justify-content: center;
+  }
+  .features{
+    flex-direction: column;
+  }
+  .featured-architect img{
+    width: 100%;
+  }
+  #experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .feature-title{
+    text-align: center;
+    padding-bottom: 10px;
   }
 }
